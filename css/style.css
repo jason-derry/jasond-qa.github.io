@@ -1,0 +1,87 @@
+@CHARSET "ISO-8859-1";
+
+html {
+	height:100%;
+	background-color: white;
+	/* background-color: #29023a; */
+	font-family: Helvetica, sans-serif;
+}
+
+body {
+	background-color: white;
+	width: 90%;
+	height: 95vh;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #000000;
+}
+
+.mainContent {
+	padding: 0px 0px 0px 0px;
+}
+
+.navigation ul {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#602559+0,29023a+100 */
+	background: rgb(96,37,89); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(96,37,89,1) 0%, rgba(41,2,58,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(96,37,89,1) 0%,rgba(41,2,58,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(96,37,89,1) 0%,rgba(41,2,58,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#602559', endColorstr='#29023a',GradientType=0 ); /* IE6-9 */
+	color: #FFFFFF;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 140px;
+	height: 95vh;
+	position: fixed;
+	overflow: auto;
+	/* border: 1px solid #FFFFFF; */
+}
+
+.navigation li a{
+	display: block;
+	text-decoration: none;
+	padding: 12px;
+	/* border: 1px solid #FFFFFF; */
+	color: white;
+}
+
+/*
+.navigation a:link {
+	color: #ffffff;
+}
+
+.navigation a:visited {
+	color: #ffffff;
+} */
+
+li a.active{
+	background-color: #29023a;
+}
+
+.navigation li:hover:not(.active) {
+	background-color: #6d2b9b;
+}
+
+.content {
+	background-color: #29023a;
+	margin-left:141px;
+	height:80px;
+	padding:1px 16px;
+}
+
+H1 {
+	text-align: center;
+	color: white;
+	padding: 24px;
+	margin: auto;
+}
+
+p {
+	background
+	padding-top: 14px;
+	padding-left: 12px;
+	padding-right: 12px;
+	overflow: auto;
+	height: 81vh;
+}
